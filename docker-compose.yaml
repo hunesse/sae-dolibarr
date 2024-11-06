@@ -1,0 +1,22 @@
+services: 
+ mariadb:
+  image: mariadb:latest
+  container_name: mariadb
+  restart: unless-stopped
+  environment:
+   - MYSQL_DATABASE=dolibarr
+   - MYSQL_USER=dolibarr
+   - MYSQL_PASSWORD=dolibarr
+  networks:
+   - localnet
+ 
+ dolibarr:
+  image: upshift/dolibarr:latest
+  container_name: dolibarr
+  restart: unless-stopped
+  networks:
+   - localnet
+
+networks:
+ localnet:
+  driver: bridge
