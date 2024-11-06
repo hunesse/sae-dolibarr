@@ -1,0 +1,18 @@
+services: 
+ mariadb:
+  image: mariadb:latest
+  container-name: mariadb
+  restart: unless-stopped
+  networks:
+   - localnet
+ 
+ dolibarr:
+  image: upshift/dolibarr:latest
+  container_name: dolibarr
+  restart: unless-stopped
+  networks:
+   - localnet
+
+networks:
+ localnet:
+  driver: bridge
