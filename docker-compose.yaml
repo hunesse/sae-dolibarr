@@ -1,8 +1,12 @@
 services: 
  mariadb:
   image: mariadb:latest
-  container-name: mariadb
+  container_name: mariadb
   restart: unless-stopped
+  environment:
+   - MYSQL_DATABASE=dolibarr
+   - MYSQL_USER=dolibarr
+   - MYSQL_PASSWORD=dolibarr
   networks:
    - localnet
  
