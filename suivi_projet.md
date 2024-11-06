@@ -24,13 +24,11 @@
 
 ## Séance n° 3
 
-* date - heure
-* Travail effectué
-* A faire à la prochaine séance
-* Difficultés rencontrées
-* Remarques sur la séances (membre absent, pbe technique, ...)
+* 06/11/2024 - [8h30-11h30]
+* Début de la conteneurisation
+* Compréhention de l'architecture à l'interrieur des docker + essaie de communication inter docker
+* Nous n'arrivons pas a faire communiquer les applications une fois dockerisés
+* Prochaine séance --> Docker compose à completer
 
-
-
-...
+## Séance n° 4
 
