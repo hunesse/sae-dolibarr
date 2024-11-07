@@ -1,6 +1,6 @@
 # Journal de bord
 
-* SAE Dilibarr
+* SAE Dolibarr
 * KERMARREC Gaëtan
 * DJENADI Arno
 * 05/11/2024
@@ -32,3 +32,9 @@
 
 ## Séance n° 4
 
+* 07/11/2024 - [8h30-11h30]
+* Docker compose terminé 
+* On a mis longtemp à comprendre l'intégration des loggins dans le docker compos et un petit port
+* Prochaine séance --> Import/export des données
+
+## Séance n° 5
