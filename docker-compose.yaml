@@ -1,12 +1,21 @@
+volumes:
+  dolibarr_html:
+  dolibarr_docs:
+  dolibarr_db:
+
 services: 
  mariadb:
   image: mariadb:latest
   container_name: mariadb
   restart: unless-stopped
+  command: --character_set_client=utf8 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+  volumes:
+   - dolibarr_db:/var/lib/mysql
   environment:
    - MYSQL_DATABASE=dolibarr
    - MYSQL_USER=dolibarr
    - MYSQL_PASSWORD=dolibarr
+   - MYSQL_ROOT_PASSWORD=foo
   networks:
    - localnet
  
@@ -16,6 +25,31 @@ services:
   restart: unless-stopped
   networks:
    - localnet
+  depends_on:
+   - mariadb
+  ports:
+   - "9000:80"
+  environment:
+   - DOLI_ADMIN_LOGIN=admin
+   - DOLI_ADMIN_PASSWORD=mypass
+   - DOLI_DB_HOST=mariadb
+   - DOLI_DB_NAME=dolibarr
+   - DOLI_DB_USER=dolibarr
+   - DOLI_DB_PASSWORD=dolibarr
+   - TZ=Europe/Paris
+  volumes:
+   - dolibarr_html:/var/www/html
+   - dolibarr_docs:/var/www/documents
+ adminer:
+  image: adminer:latest
+  environment:
+   - ADMINER_DEFAULT_SERVER=mariadb
+  container_name: adminer
+  restart: unless-stopped
+  depends_on:
+      - mariadb
+  ports:
+      - "8080:8080"
 
 networks:
  localnet:
