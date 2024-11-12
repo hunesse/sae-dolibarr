@@ -15,7 +15,7 @@ services:
    - MYSQL_DATABASE=dolibarr
    - MYSQL_USER=dolibarr
    - MYSQL_PASSWORD=dolibarr
-   - MYSQL_ROOT_PASSWORD=foo
+   - MYSQL_ROOT_PASSWORD=root
   networks:
    - localnet
  
