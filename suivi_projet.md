@@ -34,7 +34,17 @@
 
 * 07/11/2024 - [8h30-11h30]
 * Docker compose terminé 
-* On a mis longtemp à comprendre l'intégration des loggins dans le docker compos et un petit port
+* On a mis longtemp à comprendre l'intégration des loggins dans le docker compose et un petit port
 * Prochaine séance --> Import/export des données
 
 ## Séance n° 5
+
+* 07/11/2024 - [13h-16h]
+* Mise en place des script pour lancer/arret (arret non fini)
+* Prochaine séance --> Reprise Import/export des données
+## Séance n° 6
+
+* 12/11/2024 - [14h30-17h30]
+* Mise en place des commandes SQL & des scprit associés
+* En cours Import/export des données
+* Prochaine séance --> Si tout va bien on fini
