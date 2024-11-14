@@ -11,4 +11,6 @@
 ### Démarche réalisé
 
 
+### Problèmes rencontrés
+- Nous rencontrons une erreur de type "Access Denied" lorsque nous essayons de sauvegarder, et ce problème persiste malgré nos tentatives de résolution. Cela indique que le système empêche l'accès au dossier ou au fichier où nous souhaitons enregistrer. Le problème est toujours présent sur la version actuel.
  
