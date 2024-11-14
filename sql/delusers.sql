@@ -1,4 +1,4 @@
 USE dolibarr;
 
 DELETE FROM `llx_user`
-WHERE ((`entity` != '0'));
+WHERE ((`fk_user_creat` = '1'));
