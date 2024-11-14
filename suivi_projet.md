@@ -42,9 +42,16 @@
 * 07/11/2024 - [13h-16h]
 * Mise en place des script pour lancer/arret (arret non fini)
 * Prochaine séance --> Reprise Import/export des données
+* 
 ## Séance n° 6
 
 * 12/11/2024 - [14h30-17h30]
 * Mise en place des commandes SQL & des scprit associés
 * En cours Import/export des données
 * Prochaine séance --> Si tout va bien on fini
+
+## Séance n° 7
+
+* 14/11/2024 - [13h-16h]
+* Les application sont lançable a partir d'un scrpit shell
+* Problème de sauvegarde avec **Access Denied** en message d'erreur
