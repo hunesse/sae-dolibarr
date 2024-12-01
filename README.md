@@ -30,10 +30,15 @@ Après avoir fait ça vous devriez avoir une arborescence tel que celle-ci :
 Une fois cela fait allez dans le dossier sae-dolibarr, puis pour lancer le tout il suffit de lancer le script install.sh, n'oubliez pas de vous donner les droits d'exécution sur le script :
 `chmod +x install.sh`
 
-Une fois que les conteneurs sont lancés vous pouvez accèder à dolibarr via localhost/9000 et à adminer via localhost/8080.
+Une fois que les conteneurs sont lancés vous pouvez accèder à dolibarr via localhost/9000 (mettre screen + accès) et à adminer via localhost/8080 (mettre screen + accès).
 
-Pour ajouter des utilisateurs, allez dans le dossier scriptsql, `cd scriptsql/` puis attribuer vous les droits sur tout les scripts pour plus de practicité, `chmod +x *.sh` et enfin lancez le script pour l'ajout des utilisateurs 
+Pour ajouter des utilisateurs, allez dans le dossier scriptsql, `cd scriptsql/` puis attribuer vous les droits sur tout les scripts pour plus de practicité, `chmod +x *.sh` et enfin lancez le script pour l'ajout des utilisateurs `.\addusers.sh`
+
+Pour supprimer des utilisateurs, encore dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\delusers.sh`.
+
+Et enfin pour sauvegarder les modifications faite, toujours dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\save.sh` (non fonctionnel)
+
+Avec tout cela vous avez les clés en main pour pouvoir utiliser notre solution à votre guise et l'améliorer comme bon vous semble.
 
 ### Problèmes rencontrés
 - Nous rencontrons une erreur de type "Access Denied" lorsque nous essayons de sauvegarder, et ce problème persiste malgré nos tentatives de résolution. Cela indique que le système empêche l'accès au dossier ou au fichier où nous souhaitons enregistrer. Le problème est toujours présent sur la version actuel.
- 
