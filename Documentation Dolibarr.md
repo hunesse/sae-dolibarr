@@ -6,9 +6,6 @@
 ### Origine et Développement
 Dolibarr est un ERP et CRM open source créé en France dans les années 2000 par Rodolphe Quiédeville et Laurent Destailleur. Conçu pour être simple et modulaire, il cible les PME et se développe avec le soutien d'une communauté internationale active. Le logiciel suit un rythme de release régulier, avec des mises à jour semestrielles.
 
-### Fonctionnement de la Communauté
-La communauté Dolibarr est dynamique, avec des forums actifs et une documentation fournie. Plusieurs sociétés et consultants indépendants offrent des services de support et de formation pour aider les entreprises à tirer le meilleur parti du logiciel.
-
 ### Points Forts et Points Faibles
 
 **Points forts :**
@@ -24,7 +21,7 @@ La communauté Dolibarr est dynamique, avec des forums actifs et une documentati
 
 ### Concurrence
 - **Logiciels libres** : Odoo (plus avancé mais version gratuite limitée) et ERPNext (riche en fonctionnalités).
-- **Solutions commerciales** : SAP Business One, Microsoft Dynamics pour des fonctionnalités étendues mais à coût élevé, Zoho CRM pour la gestion de la relation client.
+- **Solutions commerciales** : SAP Business One, Microsoft Dynamics pour plus de fonctionnalités mais à un coût élevé, Zoho CRM pour la gestion de la relation client.
 
 ## Installation de Dolibarr
 
@@ -47,7 +44,7 @@ Cette méthode offre une flexibilité pour les configurations avancées et un co
 
 ### Paquet Debian
 Dolibarr est disponible sous forme de paquet Debian pour une installation simplifiée sur les distributions basées sur Debian, telles qu’Ubuntu.
-Avec ```apt install dolibarr```, l'installation est rapide et gérée par le système de paquets de Debian. Cette méthode est idéale pour les utilisateurs qui cherchent une installation simplifiée sans nécessiter de configurations avancées.
+Avec ```apt install dolibarr```
 
 #### Version de Dolibarr
 Les versions disponibles peuvent dépendre de la version de Debian/Ubuntu utilisée, car les paquets sont souvent liés aux versions stables des distributions.
