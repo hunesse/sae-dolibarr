@@ -37,7 +37,9 @@ Pour ajouter des utilisateurs, allez dans le dossier scriptsql, `cd scriptsql/` 
 
 Pour supprimer des utilisateurs, encore dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\delusers.sh`.
 
-Et enfin pour sauvegarder les modifications faite, toujours dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\save.sh` 
+Et pour ajouter des utilisateurs via un fichier CSV, lancez le script `importcsv.sh`.
+
+Et enfin pour sauvegarder les modifications faite, toujours dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\save.sh` .
 
 Avec tout cela vous avez les clés en main pour pouvoir utiliser notre solution à votre guise et l'améliorer comme bon vous semble.
 
