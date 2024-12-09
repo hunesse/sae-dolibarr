@@ -1,3 +1,5 @@
+## Suppression des conteneurs au préalable ##
+sh ./stop.sh
 ## Création des conteneurs ##
 echo "Création des conteneurs ..."
 docker compose up -d

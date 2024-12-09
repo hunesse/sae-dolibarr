@@ -13,7 +13,7 @@ docker cp ~/sae-dolibarr/data/contacts.csv mariadb:/var/lib/mysql/data.csv
 echo "Importation en cours"
 temp="LOAD DATA LOCAL INFILE '/var/lib/mysql/data.csv'
 INTO TABLE llx_user
-FIELDS TERMINATED BY ',' 
+FIELDS TERMINATED BY ','
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES

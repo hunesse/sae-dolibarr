@@ -31,7 +31,7 @@ services:
    - "9000:80"
   environment:
    - DOLI_ADMIN_LOGIN=admin
-   - DOLI_ADMIN_PASSWORD=root
+   - DOLI_ADMIN_PASSWORD=mypass
    - DOLI_DB_HOST=mariadb
    - DOLI_DB_NAME=dolibarr
    - DOLI_DB_USER=dolibarr
