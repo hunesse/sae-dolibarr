@@ -37,9 +37,9 @@ Pour ajouter des utilisateurs, allez dans le dossier scriptsql, `cd scriptsql/` 
 
 Pour supprimer des utilisateurs, encore dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\delusers.sh`.
 
-Et enfin pour sauvegarder les modifications faite, toujours dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\save.sh` (non fonctionnel)
+Et enfin pour sauvegarder les modifications faite, toujours dans le dossier scriptsql, lancez le script pour la suppression des utilisateurs `.\save.sh` 
 
 Avec tout cela vous avez les clés en main pour pouvoir utiliser notre solution à votre guise et l'améliorer comme bon vous semble.
 
 ### Problèmes rencontrés
-- Nous rencontrons une erreur de type "Access Denied" lorsque nous essayons de sauvegarder, et ce problème persiste malgré nos tentatives de résolution. Cela indique que le système empêche l'accès au dossier ou au fichier où nous souhaitons enregistrer. Le problème est toujours présent sur la version actuel.
+- Nous rencontrons une erreur de type "Access Denied" lorsque nous essayons de sauvegarder, et ce problème persiste malgré nos tentatives de résolution. Cela indique que le système empêche l'accès au dossier ou au fichier où nous souhaitons enregistrer. Le problème a été résolu depuis.
