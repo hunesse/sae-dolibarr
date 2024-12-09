@@ -25,7 +25,7 @@ Dans cette partie nous allons vous expliquer comment faire pour lancer et mettre
 
 Tout d'abord, il faut soit cloner ce dépot Git soit le télécharger en .zip et l'unzip ou vous le voulez (de préférence dans votre home linux si vous ne voulez pas changer les chemins). Attention, le dossier doit bien se nommer sae-dolibarr !
 Après avoir fait ça vous devriez avoir une arborescence tel que celle-ci :
-(faire arborescence)
+![Arborescence attendu](./data/tree-dolibarr.png "Arborescence à avoir avec le fichier ZIP")
 
 Une fois cela fait allez dans le dossier sae-dolibarr, puis pour lancer le tout il suffit de lancer le script install.sh, n'oubliez pas de vous donner les droits d'exécution sur le script :
 `chmod +x install.sh`
