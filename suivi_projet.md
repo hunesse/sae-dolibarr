@@ -42,7 +42,7 @@
 * 07/11/2024 - [13h-16h]
 * Mise en place des script pour lancer/arret (arret non fini)
 * Prochaine séance --> Reprise Import/export des données
-* 
+  
 ## Séance n° 6
 
 * 12/11/2024 - [14h30-17h30]
@@ -52,6 +52,23 @@
 
 ## Séance n° 7
 
-* 14/11/2024 - [13h-16h]
+* 04/11/2024 - [13h-16h]
 * Les application sont lançable a partir d'un scrpit shell
 * Problème de sauvegarde avec **Access Denied** en message d'erreur
+
+## Séance n° 8
+
+* 03/12/2024 - [14h30-16h]
+* Point fais avec le professeur, il manque l'import en CSV, il n'est disponible que en SQL
+* Documentation Dolibarr
+
+## Séance n° 9
+
+* 04/12/2024 - [10h-16h]
+* Arno est absent (malade)
+* Problème de Sauvergarde Réglé, il ne détécter pas le host au lancement
+
+## Séance n° 10
+
+* 09/12/2024 - [8h30-11h30]
+* Restoration de la sauvegarde et l'import CSV est sur le point d'être fini
